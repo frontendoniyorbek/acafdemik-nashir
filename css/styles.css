@@ -149,6 +149,10 @@ body {
 	opacity: 0.6;
 }
 
+.main-content {
+	padding-bottom: 160px;
+}
+
 /* HERO */
 .hero {
 	background-color: #252420;
@@ -274,4 +278,59 @@ body {
 .choose-item-info-text {
 	margin-top: 0;
 	margin-bottom: 0;
+}
+
+/* AKSIYALAR */
+.book-acsiya-container {
+	background-color: #252420;
+	border-radius: 12px;
+	padding: 64px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.book-acsiya-info {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	justify-content: start;
+	margin-right: 92px;
+	max-width: 440px;
+	width: 100%;
+}
+
+.book-acsiya-title {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+	line-height: 48px;
+	font-size: 40px;
+	margin-top: 0;
+	margin-bottom: 24px;
+}
+
+.book-acsiya-text {
+	margin-bottom: 12px;
+	margin-top: 0;
+}
+
+.book-acsiya-span {
+	color: #ff7500;
+}
+
+.book-acsiya-text2 {
+	margin-top: 0;
+	margin-bottom: 24px;
+}
+
+.book-acsiya-btn {
+	text-decoration: none;
+}
+
+.book-acsiya-img-wrapper img {
+	width: 440px;
+	height: 440px;
+	object-fit: cover;
+	border-radius: 12px;
 }
